@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container {
+  background: white;
+  width: 400px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.balance-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance-box h3 {
+  color: #2e7d32;
+  font-size: 30px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.summary div {
+  width: 48%;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.income {
+  background: #e8f5e9;
+}
+
+.expense {
+  background: #ffebee;
+}
+
+.income p {
+  color: green;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.expense p {
+  color: red;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.form-section {
+  margin-bottom: 25px;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background: #125aa0;
+}
+
+.history ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.history li {
+  background: #f1f1f1;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plus {
+  border-right: 5px solid green;
+}
+
+.minus {
+  border-right: 5px solid red;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
